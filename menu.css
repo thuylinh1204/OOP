@@ -1,0 +1,44 @@
+/*
+STYLESHEET FOR MENU
+*/
+
+.menu {
+    -fx-background-color: #fafad2;
+}
+
+.function-button {
+    -fx-pref-height: 60px;
+    -fx-pref-width: 270px;
+    -fx-border-insets: 2px;
+    -fx-background-insets: 2px;
+    -fx-font: bolder 14pt "Lato Black";
+    -fx-background-radius: 16px;
+    -fx-background-color: linear-gradient(#28baba 0%, #23aeae 25%, #008080 75%, #09aeae 100%);
+    -fx-text-fill: #efef7f;
+}
+
+.add-vertex-button {
+    -fx-pref-height: 60px;
+    -fx-pref-width: 270px;
+    -fx-border-insets: 2px;
+    -fx-background-insets: 2px;
+    -fx-font: bolder 14pt "Lato Black";
+    -fx-background-radius: 16px;
+    -fx-background-color: linear-gradient(#00ba23 0%, #1ea100 25%, #1ea100 75%, #00ba23 100%);
+    -fx-text-fill: white;
+}
+
+.reset-button {
+    -fx-pref-height: 60px;
+    -fx-pref-width: 270px;
+    -fx-border-insets: 2px;
+    -fx-background-insets: 2px;
+    -fx-font: bolder 14pt "Lato Black";
+    -fx-background-radius: 16px;
+    -fx-background-color: linear-gradient(#b785a7 0%,  #DB7093 25%, #c365a6 75%, #DDA0DD 100%);
+    -fx-text-fill: 	#00FF7F;
+}
+
+.status-box {
+    -fx-font: bold 14pt "arial";
+}

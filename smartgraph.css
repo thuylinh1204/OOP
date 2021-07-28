@@ -1,0 +1,297 @@
+/*
+STYLESHEET FOR JAVAFXGRAPH VISUALIZATION
+*/
+
+.graph {
+  -fx-background-color: #f4fffb;
+}
+
+.vertex {
+  -fx-stroke-width: 4;
+  -fx-stroke: #61b5f1 ;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill:  #b1dff7 ;
+}
+
+.visited-vertex0 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #99FFFF;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+
+.visited-vertex1 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #00CC33;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+
+.visited-vertex2 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #07c035;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+
+.visited-vertex3 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #c00792;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+
+.visited-vertex4 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #dceb0e;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+
+.visited-vertex5 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #FFCCFF;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+.visited-vertex6 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #FF6633;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+.visited-vertex7 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #FF3333;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+
+.visited-vertex8 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #FF3399;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+
+.visited-vertex9 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #00DD00;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+
+.visited-vertex10 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #060607;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+
+.visited-vertex11 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #070775;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #c4c3c3;
+}
+
+
+
+.stacked-vertex0 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #882900;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+
+.stacked-vertex1 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #ff9966 ;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+
+.stacked-vertex2 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #00e5ff;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+
+.stacked-vertex3 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #c0a407;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+
+.stacked-vertex3 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #d3ccff;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+
+.stacked-vertex4 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #e397d0;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+.stacked-vertex5 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #336666;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+.stacked-vertex6 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #FF6600;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+.stacked-vertex7 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #6969ab;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+.stacked-vertex8 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #dceb0e;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+.stacked-vertex9 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #988c95;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+.stacked-vertex10 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #07c035;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+.stacked-vertex11 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #0a07c0;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #e4bd0f;
+}
+.connected-vertex0 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #dd1212;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+
+.connected-vertex1 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #5856d6;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+
+.connected-vertex2 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #07c035;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+
+.connected-vertex3 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #ae639b;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+
+.connected-vertex4 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #dceb0e;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+
+.connected-vertex5 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #ea7006;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+.connected-vertex6 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #FF6600;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+.connected-vertex7 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #406633;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+.connected-vertex8 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #d3ccff;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+.connected-vertex9 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #480da2;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+
+.connected-vertex10 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #ff9966;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+.connected-vertex11 {
+  -fx-stroke-width: 4;
+  -fx-stroke: #882900;
+  -fx-stroke-type: inside; /* you should keep this if using arrows */
+  -fx-fill: #b1dff7;
+}
+
+.vertex-label {
+  -fx-font: bold 14pt 'sans-serif';
+}
+
+.edge {
+  -fx-stroke-width: 2;
+  -fx-stroke: #ff6d66;
+  -fx-stroke-dash-array: 2 5 2 5; /* remove for clean edges */
+  -fx-fill: transparent; /*important for curved edges */
+  -fx-stroke-line-cap: round;
+  -fx-opacity: 0.8;
+}
+
+.edge-label {
+  -fx-font: normal 12pt 'sans-serif';
+}
+
+.arrow {
+  -fx-stroke-width: 2;
+  -fx-stroke: #ff6d66;
+  -fx-opacity: 0.8;
+}
+
+.selectedVertex {
+  -fx-stroke-width: 6;
+  -fx-stroke: #ff9000;
+  -fx-stroke-type: inside;
+  -fx-fill: #fad51d;
+}
+
+.highlightedVertex {
+  -fx-stroke-width: 6;
+  -fx-stroke: #800080;
+  -fx-stroke-type: inside;
+  -fx-fill: #ff1493;
+}
